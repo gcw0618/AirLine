@@ -2,7 +2,7 @@ package com.yanzu.plane_company.out;
 
 import com.yanzu.plane_company.Plane.Flight;
 import com.yanzu.plane_company.RPC.Client;
-import com.yanzu.plane_company.Plane.FlightService;
+
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
 

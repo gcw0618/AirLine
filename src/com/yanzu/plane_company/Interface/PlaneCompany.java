@@ -4,7 +4,7 @@ package com.yanzu.plane_company.Interface;
 import com.yanzu.plane_company.Plane.CompanyService;
 import com.yanzu.plane_company.Plane.Flight;
 import com.yanzu.plane_company.RPC.Client;
-import com.yanzu.plane_company.Plane.FlightService;
+
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
 import java.util.Scanner;

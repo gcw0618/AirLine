@@ -1,7 +1,6 @@
 package com.yanzu.plane_company.out;
 
 import com.yanzu.plane_company.Plane.Flight;
-import com.yanzu.plane_company.Plane.FlightService;
 import com.yanzu.plane_company.RPC.Client;
 
 import java.net.InetSocketAddress;

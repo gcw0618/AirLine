@@ -16,8 +16,8 @@ public class RPCClientTest {
 		searchPrice.main();*/
 
 		//查找所有航班 取消注释
-		/*SearchFlight searchFlight=new SearchFlight();
-		searchFlight.main();*/
+		SearchFlight searchFlight=new SearchFlight();
+		searchFlight.main();
 
 		//航空公司功能 取消注释
 		/*PlaneCompany planeCompany=new PlaneCompany();
@@ -28,8 +28,8 @@ public class RPCClientTest {
 		searchPlace.main();*/
 
 		//查找机票余量功能 取消注释
-		SearchQuantity searchQuantity=new SearchQuantity();
-		searchQuantity.main();
+		/*SearchQuantity searchQuantity=new SearchQuantity();
+		searchQuantity.main();*/
 
 		//购买功能 取消注释
 		/*BuyTicket buyTicket=new BuyTicket();
