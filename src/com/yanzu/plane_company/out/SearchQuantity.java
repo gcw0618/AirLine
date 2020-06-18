@@ -1,6 +1,7 @@
 package com.yanzu.plane_company.out;
 
 import com.yanzu.plane_company.Plane.Flight;
+import com.yanzu.plane_company.Plane.FlightService;
 import com.yanzu.plane_company.RPC.Client;
 
 import java.net.InetSocketAddress;
@@ -13,7 +14,6 @@ public class SearchQuantity {
         Scanner in=new Scanner(System.in);
         String ID=in.nextLine();
         ArrayList<Flight> flight_list=new ArrayList<Flight>();
-        
         SearchQuantity searchQuantity=new SearchQuantity();
         flight_list=searchQuantity.getquantity(ID);
         for(int i=0;i<flight_list.size();i++){

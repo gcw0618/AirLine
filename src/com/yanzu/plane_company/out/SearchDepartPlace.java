@@ -17,7 +17,7 @@ public class SearchDepartPlace {
         Scanner in = new Scanner(System.in);
         String depart = in.nextLine();
         ArrayList<Flight> flight_list = new ArrayList<Flight>();
-        flight_list = service.searcharriveplace(depart);
+        flight_list = service.searchdepartplace(depart);
         for (int i = 0; i < flight_list.size(); i++) {
             System.out.println(flight_list.get(i).getID() + flight_list.get(i).getDepart() + flight_list.get(i).getDepart_time()
                     + flight_list.get(i).getArrive() + flight_list.get(i).getArrive_time() + flight_list.get(i).getQuantity()
